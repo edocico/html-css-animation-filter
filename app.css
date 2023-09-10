@@ -75,3 +75,22 @@
     filter: grayscale(70%);
     filter: hue-rotate(200%);
 }
+
+.ex-10-icon {
+    animation-name: turn;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 1s;
+}
+
+@keyframes turn {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+    
+
