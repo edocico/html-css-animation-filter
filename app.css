@@ -92,5 +92,25 @@
         transform: rotate(360deg);
     }
 }
-    
+
+.ex-11-icon:hover {
+    animation-name: semi-rotation;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 3s;
+}
+
+@keyframes semi-rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
 
