@@ -54,3 +54,13 @@
     filter: grayscale(100%);
     filter: contrast(50%);
 }
+
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    border-radius: 20px;
+    filter: grayscale(100%);
+    filter: hue-rotate(100%);
+}
