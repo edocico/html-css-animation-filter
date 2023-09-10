@@ -64,3 +64,14 @@
     filter: grayscale(100%);
     filter: hue-rotate(100%);
 }
+
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    scale: 1.5;
+    filter: grayscale(70%);
+    filter: hue-rotate(200%);
+}
