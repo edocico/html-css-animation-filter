@@ -41,3 +41,16 @@
 .ex-5-square:active {
     scale: 0.5;
 }
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+.ex-7-img {
+    transition: 3s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(100%);
+    filter: contrast(50%);
+}
